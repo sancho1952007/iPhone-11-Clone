@@ -1,0 +1,176 @@
+@font-face{
+    font-family: helvetica;
+    src: url('https://sancho1952007.github.io/Test-Repo./Fonts/Helvetica%20Neue%20UltraLight.ttf');
+}
+
+body{
+	display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.case{
+    background-color: rgb(53, 53, 53);
+    padding: 3px;
+    border-radius: 25px;
+}
+
+.body{
+    width: 190px;
+    height: 350px;
+    border: 5px solid black;
+    border-radius: 25px;
+}
+
+.small-button{
+    width: 5px;
+    height: 27px;
+    background-color: rgb(44, 44, 44);
+    position: fixed;
+    margin-left: -13px;
+    margin-top: 30px;
+    z-index: -1;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.button{
+    width: 5px;
+    height: 43px;
+    background-color: rgb(44, 44, 44);
+    position: fixed;
+    margin-left: -13px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    z-index: -1;
+}
+
+#volume-up{
+    margin-top: 65px;
+}
+
+#volume-down{
+    margin-top: 110px;
+}
+
+.long-button{
+    background-color: rgb(44, 44, 44);
+    position: fixed;
+    z-index: 2;
+    width: 7px;
+    height: 60px;
+    margin-left: 195px;
+    margin-top: 55px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.notch{
+    background-color: black;
+    width: 110px;
+    height: 15px;
+    position: fixed;
+    margin-left: 38px;
+    margin-top: -1px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.ear-speaker{
+    background-color: rgb(22, 22, 22);
+    width: 45px;
+    height: 5px;
+    border-radius: 50px;
+    position: fixed;
+    margin-left: 25px;
+    margin-top: 2px;
+}
+
+.camera{
+    background-color: rgb(78, 92, 97);
+    width: 7px;
+    height: 7px;
+    border: 2px solid rgb(52, 52, 52);
+    border-radius: 50%;
+    position: fixed;
+    margin-left: 85px;
+}
+
+.screen{
+    width: 188px;
+    height: 348px;
+    background-color: white;
+    border-radius: 25px;
+    background-image: linear-gradient(60deg, #7371ee 1%,#a1d9d6 100%);
+}
+
+.wifi-icon{
+    position: fixed;
+    color: white;
+    font-size: 11px;
+    margin-left: 148px;
+}
+
+.battery-icon{
+    position: fixed;
+    color: white;
+    margin-left: 160.5px;
+    font-size: 11px;
+    margin-top: 1.5px;
+}
+
+.lock-icon{
+    font-size: 20px;
+    position: fixed;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.time{
+    position: fixed;
+    font-family: helvetica;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.apple-date{
+    position: fixed;
+    margin-left: -27px;
+    margin-top: -15px;
+}
+
+.navigation-bar{
+    width: 70px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: lightgrey;
+    margin-top: 340px;
+    position: fixed;
+    margin-left: 60px;
+}
+
+.quick{
+    position: fixed;
+    background-color: rgb(53, 53, 53, 0.5);
+    font-size: 20px;
+    margin-top: 300px;
+    padding: 2px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left{
+    margin-left: 20px;
+}
+
+#right{
+    margin-left: 140px;
+}
