@@ -125,14 +125,14 @@ body{
 .lock-icon{
     font-size: 20px;
     position: fixed;
-    margin-left: 80px;
+    margin-left: 87px;
     margin-top: 20px;
 }
 
 .time{
     position: fixed;
     font-family: helvetica;
-    margin-left: 55px;
+    margin-left: 57px;
     margin-top: 20px;
     font-size: 15px;
 }
